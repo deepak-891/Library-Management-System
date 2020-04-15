@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Library_Management_System
 {
-    public partial class Form1 : Form
+    public partial class Features : Form
     {
-        public Form1()
+        public Features()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
         }

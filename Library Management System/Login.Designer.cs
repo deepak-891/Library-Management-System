@@ -1,6 +1,6 @@
 ﻿namespace Library_Management_System
 {
-    partial class Form1
+    partial class LoginWindow
     {
         /// <summary>
         /// Required designer variable.
