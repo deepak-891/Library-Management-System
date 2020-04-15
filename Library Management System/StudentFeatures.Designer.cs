@@ -109,7 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Library_Management_System.Properties.Resources.library;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(729, 417);
+            this.ClientSize = new System.Drawing.Size(729, 482);
             this.Controls.Add(this.ReIssue);
             this.Controls.Add(this.addStudent);
             this.Controls.Add(this.CheckFine);
