@@ -139,8 +139,9 @@
             // 
             this.address.BackColor = System.Drawing.Color.LavenderBlush;
             this.address.Location = new System.Drawing.Point(221, 362);
+            this.address.Multiline = true;
             this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(177, 20);
+            this.address.Size = new System.Drawing.Size(190, 65);
             this.address.TabIndex = 11;
             // 
             // label6
