@@ -53,12 +53,12 @@
             // 
             this.issue.ActiveLinkColor = System.Drawing.Color.White;
             this.issue.AutoSize = true;
-            this.issue.BackColor = System.Drawing.Color.Transparent;
-            this.issue.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.issue.LinkColor = System.Drawing.Color.Red;
+            this.issue.BackColor = System.Drawing.Color.Lime;
+            this.issue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.issue.LinkColor = System.Drawing.Color.Black;
             this.issue.Location = new System.Drawing.Point(75, 108);
             this.issue.Name = "issue";
-            this.issue.Size = new System.Drawing.Size(122, 24);
+            this.issue.Size = new System.Drawing.Size(118, 25);
             this.issue.TabIndex = 1;
             this.issue.TabStop = true;
             this.issue.Text = "Issue Book";
@@ -68,12 +68,12 @@
             // 
             this.CheckFine.ActiveLinkColor = System.Drawing.Color.White;
             this.CheckFine.AutoSize = true;
-            this.CheckFine.BackColor = System.Drawing.Color.Transparent;
-            this.CheckFine.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckFine.LinkColor = System.Drawing.Color.White;
+            this.CheckFine.BackColor = System.Drawing.Color.Red;
+            this.CheckFine.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckFine.LinkColor = System.Drawing.Color.Black;
             this.CheckFine.Location = new System.Drawing.Point(75, 193);
             this.CheckFine.Name = "CheckFine";
-            this.CheckFine.Size = new System.Drawing.Size(124, 24);
+            this.CheckFine.Size = new System.Drawing.Size(121, 25);
             this.CheckFine.TabIndex = 2;
             this.CheckFine.TabStop = true;
             this.CheckFine.Text = "Check Fine";
@@ -82,12 +82,12 @@
             // 
             this.addStudent.ActiveLinkColor = System.Drawing.Color.White;
             this.addStudent.AutoSize = true;
-            this.addStudent.BackColor = System.Drawing.Color.Transparent;
-            this.addStudent.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addStudent.BackColor = System.Drawing.Color.Sienna;
+            this.addStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addStudent.LinkColor = System.Drawing.Color.White;
             this.addStudent.Location = new System.Drawing.Point(75, 277);
             this.addStudent.Name = "addStudent";
-            this.addStudent.Size = new System.Drawing.Size(135, 24);
+            this.addStudent.Size = new System.Drawing.Size(130, 25);
             this.addStudent.TabIndex = 3;
             this.addStudent.TabStop = true;
             this.addStudent.Text = "Add Student";
@@ -96,12 +96,12 @@
             // 
             this.returnBook.ActiveLinkColor = System.Drawing.Color.White;
             this.returnBook.AutoSize = true;
-            this.returnBook.BackColor = System.Drawing.Color.Transparent;
-            this.returnBook.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.returnBook.LinkColor = System.Drawing.Color.White;
+            this.returnBook.BackColor = System.Drawing.Color.Aqua;
+            this.returnBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.returnBook.LinkColor = System.Drawing.Color.Black;
             this.returnBook.Location = new System.Drawing.Point(408, 108);
             this.returnBook.Name = "returnBook";
-            this.returnBook.Size = new System.Drawing.Size(137, 24);
+            this.returnBook.Size = new System.Drawing.Size(131, 25);
             this.returnBook.TabIndex = 4;
             this.returnBook.TabStop = true;
             this.returnBook.Text = "Return Book";
@@ -110,19 +110,19 @@
             // 
             this.ReIssue.ActiveLinkColor = System.Drawing.Color.White;
             this.ReIssue.AutoSize = true;
-            this.ReIssue.BackColor = System.Drawing.Color.Transparent;
-            this.ReIssue.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReIssue.LinkColor = System.Drawing.Color.White;
+            this.ReIssue.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.ReIssue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReIssue.LinkColor = System.Drawing.Color.SeaShell;
             this.ReIssue.Location = new System.Drawing.Point(408, 193);
             this.ReIssue.Name = "ReIssue";
-            this.ReIssue.Size = new System.Drawing.Size(154, 24);
+            this.ReIssue.Size = new System.Drawing.Size(152, 25);
             this.ReIssue.TabIndex = 5;
             this.ReIssue.TabStop = true;
-            this.ReIssue.Text = "Re Issue Book";
+            this.ReIssue.Text = "Re-Issue Book";
             // 
             // Features
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Library_Management_System.Properties.Resources.library;
             this.ClientSize = new System.Drawing.Size(650, 415);
@@ -132,7 +132,7 @@
             this.Controls.Add(this.CheckFine);
             this.Controls.Add(this.issue);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Features";
             this.Text = "Features";
             this.ResumeLayout(false);

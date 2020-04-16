@@ -53,12 +53,12 @@
             // 
             this.issue.ActiveLinkColor = System.Drawing.Color.White;
             this.issue.AutoSize = true;
-            this.issue.BackColor = System.Drawing.Color.Transparent;
-            this.issue.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.issue.LinkColor = System.Drawing.Color.Red;
+            this.issue.BackColor = System.Drawing.Color.Lime;
+            this.issue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.issue.LinkColor = System.Drawing.Color.Black;
             this.issue.Location = new System.Drawing.Point(138, 97);
             this.issue.Name = "issue";
-            this.issue.Size = new System.Drawing.Size(135, 24);
+            this.issue.Size = new System.Drawing.Size(130, 25);
             this.issue.TabIndex = 7;
             this.issue.TabStop = true;
             this.issue.Text = "Issued Book";
@@ -67,12 +67,12 @@
             // 
             this.CheckFine.ActiveLinkColor = System.Drawing.Color.White;
             this.CheckFine.AutoSize = true;
-            this.CheckFine.BackColor = System.Drawing.Color.Transparent;
-            this.CheckFine.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckFine.LinkColor = System.Drawing.Color.White;
+            this.CheckFine.BackColor = System.Drawing.Color.Crimson;
+            this.CheckFine.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckFine.LinkColor = System.Drawing.Color.MistyRose;
             this.CheckFine.Location = new System.Drawing.Point(138, 182);
             this.CheckFine.Name = "CheckFine";
-            this.CheckFine.Size = new System.Drawing.Size(124, 24);
+            this.CheckFine.Size = new System.Drawing.Size(121, 25);
             this.CheckFine.TabIndex = 8;
             this.CheckFine.TabStop = true;
             this.CheckFine.Text = "Check Fine";
@@ -81,12 +81,12 @@
             // 
             this.ReIssue.ActiveLinkColor = System.Drawing.Color.White;
             this.ReIssue.AutoSize = true;
-            this.ReIssue.BackColor = System.Drawing.Color.Transparent;
-            this.ReIssue.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReIssue.BackColor = System.Drawing.Color.MediumBlue;
+            this.ReIssue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReIssue.LinkColor = System.Drawing.Color.White;
             this.ReIssue.Location = new System.Drawing.Point(425, 97);
             this.ReIssue.Name = "ReIssue";
-            this.ReIssue.Size = new System.Drawing.Size(154, 24);
+            this.ReIssue.Size = new System.Drawing.Size(151, 25);
             this.ReIssue.TabIndex = 11;
             this.ReIssue.TabStop = true;
             this.ReIssue.Text = "Re Issue Book";
@@ -96,11 +96,11 @@
             this.addStudent.ActiveLinkColor = System.Drawing.Color.White;
             this.addStudent.AutoSize = true;
             this.addStudent.BackColor = System.Drawing.Color.Transparent;
-            this.addStudent.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addStudent.LinkColor = System.Drawing.Color.White;
             this.addStudent.Location = new System.Drawing.Point(138, 266);
             this.addStudent.Name = "addStudent";
-            this.addStudent.Size = new System.Drawing.Size(0, 24);
+            this.addStudent.Size = new System.Drawing.Size(0, 25);
             this.addStudent.TabIndex = 9;
             // 
             // StudentFeatures
