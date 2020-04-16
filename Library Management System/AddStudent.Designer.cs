@@ -62,6 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(247, 86);
             this.label2.Name = "label2";
@@ -71,6 +72,7 @@
             // 
             // StudentId
             // 
+            this.StudentId.BackColor = System.Drawing.Color.LavenderBlush;
             this.StudentId.Location = new System.Drawing.Point(435, 86);
             this.StudentId.Name = "StudentId";
             this.StudentId.Size = new System.Drawing.Size(177, 20);
@@ -78,6 +80,7 @@
             // 
             // studentName
             // 
+            this.studentName.BackColor = System.Drawing.Color.LavenderBlush;
             this.studentName.Location = new System.Drawing.Point(221, 152);
             this.studentName.Name = "studentName";
             this.studentName.Size = new System.Drawing.Size(177, 20);
@@ -86,6 +89,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(33, 152);
             this.label3.Name = "label3";
@@ -95,6 +99,7 @@
             // 
             // mobile
             // 
+            this.mobile.BackColor = System.Drawing.Color.LavenderBlush;
             this.mobile.Location = new System.Drawing.Point(221, 224);
             this.mobile.Name = "mobile";
             this.mobile.Size = new System.Drawing.Size(177, 20);
@@ -103,6 +108,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(33, 224);
             this.label4.Name = "label4";
@@ -112,6 +118,7 @@
             // 
             // email
             // 
+            this.email.BackColor = System.Drawing.Color.LavenderBlush;
             this.email.Location = new System.Drawing.Point(221, 286);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(177, 20);
@@ -120,6 +127,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(33, 286);
             this.label5.Name = "label5";
@@ -129,6 +137,7 @@
             // 
             // address
             // 
+            this.address.BackColor = System.Drawing.Color.LavenderBlush;
             this.address.Location = new System.Drawing.Point(221, 362);
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(177, 20);
@@ -137,6 +146,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(33, 362);
             this.label6.Name = "label6";
@@ -146,7 +156,8 @@
             // 
             // password
             // 
-            this.password.Location = new System.Drawing.Point(647, 152);
+            this.password.BackColor = System.Drawing.Color.LavenderBlush;
+            this.password.Location = new System.Drawing.Point(611, 152);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(177, 20);
             this.password.TabIndex = 13;
@@ -154,39 +165,47 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(459, 152);
+            this.label7.Location = new System.Drawing.Point(516, 152);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 20);
+            this.label7.Size = new System.Drawing.Size(78, 20);
             this.label7.TabIndex = 12;
-            this.label7.Text = "password";
+            this.label7.Text = "Password";
             // 
             // Exit
             // 
-            this.Exit.Location = new System.Drawing.Point(617, 323);
+            this.Exit.BackColor = System.Drawing.Color.Red;
+            this.Exit.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exit.ForeColor = System.Drawing.SystemColors.Control;
+            this.Exit.Location = new System.Drawing.Point(583, 359);
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(75, 23);
+            this.Exit.Size = new System.Drawing.Size(96, 46);
             this.Exit.TabIndex = 15;
             this.Exit.Text = "Exit";
-            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.UseVisualStyleBackColor = false;
             // 
             // submit
             // 
-            this.submit.Location = new System.Drawing.Point(525, 265);
+            this.submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.submit.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submit.Location = new System.Drawing.Point(520, 265);
             this.submit.Name = "submit";
-            this.submit.Size = new System.Drawing.Size(75, 23);
+            this.submit.Size = new System.Drawing.Size(105, 52);
             this.submit.TabIndex = 14;
             this.submit.Text = "Submit";
-            this.submit.UseVisualStyleBackColor = true;
+            this.submit.UseVisualStyleBackColor = false;
             // 
             // Clear
             // 
-            this.Clear.Location = new System.Drawing.Point(683, 265);
+            this.Clear.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Clear.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Clear.Location = new System.Drawing.Point(659, 265);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(75, 23);
+            this.Clear.Size = new System.Drawing.Size(99, 52);
             this.Clear.TabIndex = 16;
             this.Clear.Text = "Clear";
-            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.UseVisualStyleBackColor = false;
             // 
             // addStudent
             // 
