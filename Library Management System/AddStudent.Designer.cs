@@ -44,6 +44,7 @@
             this.Exit = new System.Windows.Forms.Button();
             this.submit = new System.Windows.Forms.Button();
             this.Clear = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // label1
@@ -255,5 +256,6 @@
         private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.Button submit;
         private System.Windows.Forms.Button Clear;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
