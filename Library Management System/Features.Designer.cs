@@ -50,6 +50,7 @@
             this.label1.Size = new System.Drawing.Size(843, 55);
             this.label1.TabIndex = 0;
             this.label1.Text = "Features";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // issue
             // 
@@ -154,6 +155,7 @@
             this.addBook.TabIndex = 7;
             this.addBook.TabStop = true;
             this.addBook.Text = "Add Book";
+            this.addBook.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.addBook_LinkClicked);
             // 
             // Features
             // 
