@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,55 @@ namespace Library_Management_System
 
         private void submit_Click(object sender, EventArgs e)
         {
+            String S_id = StudentId.Text;
+            String S_name = studentName.Text;
+            String eml = email.Text;
+            String Pass = password.Text;
+            String add = address.Text;
+            String mbl = mobile.Text;
+            string connectionString = "datasource=remotemysql.com;port=3306;username=4PWYWxK833;password=kcyuAYHJX7;database=4PWYWxK833;";                // using the code here... 
+            string query = "Insert Into Student Values('" + S_id + "','" + S_name + "',"+Convert.ToInt64(mbl)+",'" + eml + "','"+add+"',"+0+")";
+            MySqlConnection databaseConnection = new MySqlConnection(connectionString);
+            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection)
+            {
+                CommandTimeout = 60
+            };
+            MySqlDataReader reader;
+
+            try
+            {
+                databaseConnection.Open();
+                reader = commandDatabase.ExecuteReader();
+                if (!reader.HasRows)
+                {
+                    MessageBox.Show("Student Added Successfully.");
+                }
+                else
+                {
+                    MessageBox.Show("Some Error occured.");
+                }
+                databaseConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            StudentId.Text = "";
+            studentName.Text = "";
+            email.Text = "";
+            mobile.Text = "";
+            address.Text = "";
+            password.Text = "";
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
 
         }
     }

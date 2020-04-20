@@ -139,7 +139,9 @@
             // address
             // 
             this.address.BackColor = System.Drawing.Color.LavenderBlush;
+            this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.address.Location = new System.Drawing.Point(221, 362);
+            this.address.MaxLength = 50;
             this.address.Multiline = true;
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(190, 65);
@@ -186,6 +188,7 @@
             this.Exit.TabIndex = 15;
             this.Exit.Text = "Exit";
             this.Exit.UseVisualStyleBackColor = false;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // submit
             // 
@@ -209,6 +212,7 @@
             this.Clear.TabIndex = 16;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = false;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // addStudent
             // 
@@ -233,7 +237,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "addStudent";
-            this.Text = "Form1";
+            this.Text = "Library Management System";
             this.ResumeLayout(false);
             this.PerformLayout();
 
