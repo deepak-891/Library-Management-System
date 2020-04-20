@@ -35,6 +35,7 @@
             this.returnBook = new System.Windows.Forms.LinkLabel();
             this.ReIssue = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.addBook = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -140,12 +141,27 @@
             this.linkLabel1.Text = "Add Librarian";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
+            // addBook
+            // 
+            this.addBook.ActiveLinkColor = System.Drawing.Color.White;
+            this.addBook.AutoSize = true;
+            this.addBook.BackColor = System.Drawing.Color.Aqua;
+            this.addBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addBook.LinkColor = System.Drawing.Color.Black;
+            this.addBook.Location = new System.Drawing.Point(243, 334);
+            this.addBook.Name = "addBook";
+            this.addBook.Size = new System.Drawing.Size(105, 25);
+            this.addBook.TabIndex = 7;
+            this.addBook.TabStop = true;
+            this.addBook.Text = "Add Book";
+            // 
             // Features
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Library_Management_System.Properties.Resources.library;
             this.ClientSize = new System.Drawing.Size(650, 415);
+            this.Controls.Add(this.addBook);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.ReIssue);
             this.Controls.Add(this.returnBook);
@@ -170,5 +186,6 @@
         private System.Windows.Forms.LinkLabel returnBook;
         private System.Windows.Forms.LinkLabel ReIssue;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel addBook;
     }
 }
