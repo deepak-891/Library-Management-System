@@ -58,6 +58,24 @@
     <Compile Include="checkFine.Designer.cs">
       <DependentUpon>checkFine.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReIssue.Designer.cs">
+      <DependentUpon>ReIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssueBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssueBook.Designer.cs">
+      <DependentUpon>IssueBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="issuedBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="issuedBook.Designer.cs">
+      <DependentUpon>issuedBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentFeatures.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +101,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="checkFine.resx">
       <DependentUpon>checkFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReIssue.resx">
+      <DependentUpon>ReIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueBook.resx">
+      <DependentUpon>IssueBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="issuedBook.resx">
+      <DependentUpon>issuedBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentFeatures.resx">
       <DependentUpon>StudentFeatures.cs</DependentUpon>

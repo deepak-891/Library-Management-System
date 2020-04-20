@@ -56,9 +56,9 @@
             this.label1.Location = new System.Drawing.Point(-5, -1);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(350, 9, 350, 9);
-            this.label1.Size = new System.Drawing.Size(843, 55);
+            this.label1.Size = new System.Drawing.Size(894, 55);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Features";
+            this.label1.Text = "Add Student";
             // 
             // label2
             // 

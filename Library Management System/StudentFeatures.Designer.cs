@@ -62,6 +62,7 @@
             this.issue.TabIndex = 7;
             this.issue.TabStop = true;
             this.issue.Text = "Issued Book";
+            this.issue.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.issue_LinkClicked);
             // 
             // CheckFine
             // 
