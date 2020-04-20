@@ -127,7 +127,7 @@
             // 
             this.loginAs.FormattingEnabled = true;
             this.loginAs.Items.AddRange(new object[] {
-            "",
+            "None",
             "Librarian ",
             "Student "});
             this.loginAs.Location = new System.Drawing.Point(302, 181);

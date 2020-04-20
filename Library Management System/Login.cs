@@ -22,7 +22,7 @@ namespace Library_Management_System
         
         private void Login_Click(object sender, EventArgs e)
         {
-            if (Username.Text != null && Username.Text != "" && Password.Text != null && Password.Text != "" && loginAs.SelectedItem != "")
+            if (Username.Text != null && Username.Text != "" && Password.Text != null && Password.Text != "" && loginAs.SelectedItem!= "None")
             {
                 String user, pass;
                 user = Username.Text;

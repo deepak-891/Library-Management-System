@@ -21,6 +21,7 @@ namespace Library_Management_System
 
         public StudentFeatures(string user)
         {
+            InitializeComponent();
             this.studentId = user;
         }
 
