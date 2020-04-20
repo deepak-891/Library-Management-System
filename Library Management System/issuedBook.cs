@@ -33,7 +33,7 @@ namespace Library_Management_System
 
             string connectionString = "datasource=remotemysql.com;port=3306;username=4PWYWxK833;password=kcyuAYHJX7;database=4PWYWxK833;";                // using the code here... 
 
-            String query = "Select * from ADMIN";
+            String query = "SELECT * FROM ISSUED WHERE S_id='"+studentId+"'";
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection)
             {
