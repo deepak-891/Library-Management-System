@@ -58,6 +58,12 @@
     <Compile Include="checkFine.Designer.cs">
       <DependentUpon>checkFine.cs</DependentUpon>
     </Compile>
+    <Compile Include="returnBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="returnBook.Designer.cs">
+      <DependentUpon>returnBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReIssue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="checkFine.resx">
       <DependentUpon>checkFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="returnBook.resx">
+      <DependentUpon>returnBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReIssue.resx">
       <DependentUpon>ReIssue.cs</DependentUpon>
