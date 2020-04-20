@@ -21,7 +21,10 @@ namespace Library_Management_System
 
         public StudentFeatures(string user)
         {
+            InitializeComponent();
+
             this.studentId = user;
+        
         }
 
         private void label1_Click(object sender, EventArgs e)
