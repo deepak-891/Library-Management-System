@@ -23,23 +23,31 @@ namespace Library_Management_System
             String S_id = StudentId.Text;
             String S_name = studentName.Text;
             String eml = email.Text;
-            String Pass = password.Text;
+            String Pswd = password.Text;
             String add = address.Text;
             String mbl = mobile.Text;
             string connectionString = "datasource=remotemysql.com;port=3306;username=4PWYWxK833;password=kcyuAYHJX7;database=4PWYWxK833;";                // using the code here... 
             string query = "Insert Into Student Values('" + S_id + "','" + S_name + "',"+Convert.ToInt64(mbl)+",'" + eml + "','"+add+"',"+0+")";
+            string query2 = "Insert Into Student_login Values('" + S_id + "','" + Pswd + "')";
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
+            MySqlConnection databaseConnection2 = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection)
             {
                 CommandTimeout = 60
             };
-            MySqlDataReader reader;
+            MySqlCommand commandDatabase2 = new MySqlCommand(query2, databaseConnection2)
+            {
+                CommandTimeout = 60
+            };
+            MySqlDataReader reader1, reader2;
 
             try
             {
                 databaseConnection.Open();
-                reader = commandDatabase.ExecuteReader();
-                if (!reader.HasRows)
+                databaseConnection2.Open();
+                reader1 = commandDatabase.ExecuteReader();
+                reader2 = commandDatabase2.ExecuteReader();
+                if (!reader1.HasRows && !reader2.HasRows)
                 {
                     MessageBox.Show("Student Added Successfully.");
                 }

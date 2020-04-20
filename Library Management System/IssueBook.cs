@@ -19,6 +19,17 @@ namespace Library_Management_System
 
         private void Exit_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            StudentId.Text = "";
+            bookId.Text = "";
+        }
+
+        private void submit_Click(object sender, EventArgs e)
+        {
 
         }
     }

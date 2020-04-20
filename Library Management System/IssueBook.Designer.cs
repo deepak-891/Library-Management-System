@@ -123,6 +123,7 @@
             this.Clear.TabIndex = 19;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = false;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Exit
             // 
@@ -147,8 +148,9 @@
             this.submit.TabIndex = 17;
             this.submit.Text = "Issue Book";
             this.submit.UseVisualStyleBackColor = false;
+            this.submit.Click += new System.EventHandler(this.submit_Click);
             // 
-            // Form1
+            // IssueBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -164,7 +166,7 @@
             this.Controls.Add(this.StudentId);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "IssueBook";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
