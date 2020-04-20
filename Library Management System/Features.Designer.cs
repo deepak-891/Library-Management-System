@@ -34,6 +34,7 @@
             this.addStudent = new System.Windows.Forms.LinkLabel();
             this.returnBook = new System.Windows.Forms.LinkLabel();
             this.ReIssue = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -70,13 +71,14 @@
             this.CheckFine.AutoSize = true;
             this.CheckFine.BackColor = System.Drawing.Color.Red;
             this.CheckFine.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckFine.LinkColor = System.Drawing.Color.Black;
+            this.CheckFine.LinkColor = System.Drawing.Color.White;
             this.CheckFine.Location = new System.Drawing.Point(75, 193);
             this.CheckFine.Name = "CheckFine";
             this.CheckFine.Size = new System.Drawing.Size(121, 25);
             this.CheckFine.TabIndex = 2;
             this.CheckFine.TabStop = true;
             this.CheckFine.Text = "Check Fine";
+            this.CheckFine.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.CheckFine_LinkClicked);
             // 
             // addStudent
             // 
@@ -91,6 +93,7 @@
             this.addStudent.TabIndex = 3;
             this.addStudent.TabStop = true;
             this.addStudent.Text = "Add Student";
+            this.addStudent.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.addStudent_LinkClicked);
             // 
             // returnBook
             // 
@@ -105,6 +108,7 @@
             this.returnBook.TabIndex = 4;
             this.returnBook.TabStop = true;
             this.returnBook.Text = "Return Book";
+            this.returnBook.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.returnBook_LinkClicked);
             // 
             // ReIssue
             // 
@@ -119,6 +123,21 @@
             this.ReIssue.TabIndex = 5;
             this.ReIssue.TabStop = true;
             this.ReIssue.Text = "Re-Issue Book";
+            this.ReIssue.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ReIssue_LinkClicked);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Red;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.Red;
+            this.linkLabel1.Location = new System.Drawing.Point(408, 277);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(140, 25);
+            this.linkLabel1.TabIndex = 6;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Add Librarian";
             // 
             // Features
             // 
@@ -126,6 +145,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Library_Management_System.Properties.Resources.library;
             this.ClientSize = new System.Drawing.Size(650, 415);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.ReIssue);
             this.Controls.Add(this.returnBook);
             this.Controls.Add(this.addStudent);
@@ -148,5 +168,6 @@
         private System.Windows.Forms.LinkLabel addStudent;
         private System.Windows.Forms.LinkLabel returnBook;
         private System.Windows.Forms.LinkLabel ReIssue;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

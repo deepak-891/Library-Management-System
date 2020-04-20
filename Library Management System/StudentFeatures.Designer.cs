@@ -77,6 +77,7 @@
             this.CheckFine.TabIndex = 8;
             this.CheckFine.TabStop = true;
             this.CheckFine.Text = "Check Fine";
+            this.CheckFine.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.CheckFine_LinkClicked);
             // 
             // ReIssue
             // 
@@ -91,6 +92,7 @@
             this.ReIssue.TabIndex = 11;
             this.ReIssue.TabStop = true;
             this.ReIssue.Text = "Re Issue Book";
+            this.ReIssue.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ReIssue_LinkClicked);
             // 
             // addStudent
             // 

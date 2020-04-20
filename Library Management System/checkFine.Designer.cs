@@ -129,7 +129,7 @@
             this.Controls.Add(this.addStudent);
             this.Controls.Add(this.label1);
             this.Name = "checkFine";
-            this.Text = "Form1";
+            this.Text = "Library management System";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

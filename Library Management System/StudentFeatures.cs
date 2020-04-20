@@ -24,7 +24,20 @@ namespace Library_Management_System
 
         private void issue_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            issuedBook issued = new issuedBook();
+            issued.Show();
+        }
 
+        private void ReIssue_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ReIssue reis = new ReIssue();
+            reis.Show();
+        }
+
+        private void CheckFine_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            checkFine check = new checkFine();
+            check.Show();
         }
     }
 }

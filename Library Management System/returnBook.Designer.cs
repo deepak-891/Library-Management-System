@@ -128,7 +128,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "returnBook";
-            this.Text = "Form1";
+            this.Text = "Library management system";
             this.ResumeLayout(false);
             this.PerformLayout();
 

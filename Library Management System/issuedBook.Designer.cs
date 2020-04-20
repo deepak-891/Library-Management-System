@@ -136,7 +136,7 @@
             this.Controls.Add(this.addStudent);
             this.Controls.Add(this.label1);
             this.Name = "issuedBook";
-            this.Text = "Form1";
+            this.Text = "Library management system";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
