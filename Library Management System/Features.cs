@@ -50,7 +50,8 @@ namespace Library_Management_System
 
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            addLibrarian al = new addLibrarian();
+            al.Show();
         }
 
         private void addBook_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
