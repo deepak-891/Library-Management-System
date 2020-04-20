@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,41 +23,49 @@ namespace Library_Management_System
         public issuedBook(string studentId1)
         {
             this.studentId1 = studentId1;
+            InitializeComponent();
+            this.studentId.Text = studentId1;
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void submit_Click(object sender, EventArgs e)
         {
 
-        }
+            string connectionString = "datasource=remotemysql.com;port=3306;username=4PWYWxK833;password=kcyuAYHJX7;database=4PWYWxK833;";                // using the code here... 
+
+            String query = "Select * from ADMIN";
+            MySqlConnection databaseConnection = new MySqlConnection(connectionString);
+            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection)
+            {
+                CommandTimeout = 60
+            };
+
+            try
+            {
+            MySqlDataAdapter sda = new MySqlDataAdapter();
+            sda.SelectCommand = commandDatabase;
+            DataTable dbdataset = new DataTable();
+            sda.Fill(dbdataset);
+            BindingSource bSource = new BindingSource();
+
+            bSource.DataSource = dbdataset;
+            dataGridView1.DataSource = bSource;
+            sda.Update(dbdataset);
+
+             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+        }   
+
 
         private void Exit_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void studentId_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void addStudent_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

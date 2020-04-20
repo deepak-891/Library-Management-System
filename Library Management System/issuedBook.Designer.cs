@@ -70,7 +70,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(776, 311);
             this.dataGridView1.TabIndex = 30;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // studentId
             // 
@@ -78,7 +77,6 @@
             this.studentId.Name = "studentId";
             this.studentId.Size = new System.Drawing.Size(168, 20);
             this.studentId.TabIndex = 29;
-            this.studentId.TextChanged += new System.EventHandler(this.studentId_TextChanged);
             // 
             // linkLabel5
             // 
@@ -93,7 +91,6 @@
             this.linkLabel5.TabIndex = 28;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "Student ID";
-            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
             // addStudent
             // 
@@ -106,7 +103,6 @@
             this.addStudent.Name = "addStudent";
             this.addStudent.Size = new System.Drawing.Size(0, 25);
             this.addStudent.TabIndex = 27;
-            this.addStudent.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.addStudent_LinkClicked);
             // 
             // label1
             // 
@@ -119,9 +115,7 @@
             this.label1.Padding = new System.Windows.Forms.Padding(350, 9, 350, 9);
             this.label1.Size = new System.Drawing.Size(892, 55);
             this.label1.TabIndex = 26;
-            this.label1.Text = "Issued Book";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
+            this.label1.Text = "Issued Book";            // 
             // issuedBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

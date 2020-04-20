@@ -23,6 +23,7 @@ namespace Library_Management_System
         {
             InitializeComponent();
             this.studentId = user;
+        
         }
 
         private void label1_Click(object sender, EventArgs e)

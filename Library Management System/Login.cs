@@ -56,18 +56,20 @@ namespace Library_Management_System
                     {
                         if (loginAs.SelectedIndex == 1)
                         {
+                            this.Close();
 
                             Form f1 = new Features();
                             f1.ShowDialog();
-                            this.Close();
-                           
+                            databaseConnection.Close();
 
                         }
                         else if(loginAs.SelectedIndex == 2)
                         {
+                            this.Close();
+
                             Form f1 = new StudentFeatures(user);
                             f1.ShowDialog();
-                            this.Close();
+                            databaseConnection.Close();
                         }
 
                     }
