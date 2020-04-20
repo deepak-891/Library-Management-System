@@ -71,7 +71,7 @@
             this.submit.Name = "submit";
             this.submit.Size = new System.Drawing.Size(105, 52);
             this.submit.TabIndex = 27;
-            this.submit.Text = "Issue Book";
+            this.submit.Text = "Re-Issue Book";
             this.submit.UseVisualStyleBackColor = false;
             // 
             // bookDetails
@@ -143,9 +143,9 @@
             this.label1.Location = new System.Drawing.Point(-37, -3);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(350, 9, 350, 9);
-            this.label1.Size = new System.Drawing.Size(874, 55);
+            this.label1.Size = new System.Drawing.Size(922, 55);
             this.label1.TabIndex = 20;
-            this.label1.Text = "Issue Book";
+            this.label1.Text = "Re-issue Book";
             // 
             // ReIssue
             // 

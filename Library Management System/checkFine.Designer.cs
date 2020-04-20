@@ -67,7 +67,7 @@
             // 
             this.linkLabel5.ActiveLinkColor = System.Drawing.Color.White;
             this.linkLabel5.AutoSize = true;
-            this.linkLabel5.BackColor = System.Drawing.Color.Lime;
+            this.linkLabel5.BackColor = System.Drawing.Color.Thistle;
             this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel5.LinkColor = System.Drawing.Color.Black;
             this.linkLabel5.Location = new System.Drawing.Point(55, 86);
