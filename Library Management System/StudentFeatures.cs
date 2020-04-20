@@ -12,9 +12,16 @@ namespace Library_Management_System
 {
     public partial class StudentFeatures : Form
     {
+        private string studentId;
+
         public StudentFeatures()
         {
             InitializeComponent();
+        }
+
+        public StudentFeatures(string user)
+        {
+            this.studentId = user;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -24,19 +31,19 @@ namespace Library_Management_System
 
         private void issue_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            issuedBook issued = new issuedBook();
+            issuedBook issued = new issuedBook(studentId);
             issued.Show();
         }
 
         private void ReIssue_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ReIssue reis = new ReIssue();
+            ReIssue reis = new ReIssue(studentId);
             reis.Show();
         }
 
         private void CheckFine_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            checkFine check = new checkFine();
+            checkFine check = new checkFine(studentId);
             check.Show();
         }
     }

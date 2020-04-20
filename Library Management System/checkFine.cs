@@ -12,9 +12,16 @@ namespace Library_Management_System
 {
     public partial class checkFine : Form
     {
+        private string studentId1;
+
         public checkFine()
         {
             InitializeComponent();
+        }
+
+        public checkFine(string studentId1)
+        {
+            this.studentId1 = studentId1;
         }
     }
 }

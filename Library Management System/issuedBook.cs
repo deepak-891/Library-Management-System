@@ -12,9 +12,16 @@ namespace Library_Management_System
 {
     public partial class issuedBook : Form
     {
+        private string studentId1;
+
         public issuedBook()
         {
             InitializeComponent();
+        }
+
+        public issuedBook(string studentId1)
+        {
+            this.studentId1 = studentId1;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

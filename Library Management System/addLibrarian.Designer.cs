@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.Clear = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
             this.submit = new System.Windows.Forms.Button();
@@ -209,7 +208,7 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Add Librarian";
             // 
-            // Form1
+            // addLibrarian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,7 +230,7 @@
             this.Controls.Add(this.StudentId);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "addLibrarian";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -239,8 +238,6 @@
         }
 
         #endregion
-
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.Button submit;

@@ -12,9 +12,16 @@ namespace Library_Management_System
 {
     public partial class ReIssue : Form
     {
+        private string studentId;
+
         public ReIssue()
         {
             InitializeComponent();
+        }
+
+        public ReIssue(string studentId)
+        {
+            this.studentId = studentId;
         }
     }
 }
