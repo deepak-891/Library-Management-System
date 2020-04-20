@@ -82,6 +82,7 @@
             this.Login.TabIndex = 4;
             this.Login.Text = "Login";
             this.Login.UseVisualStyleBackColor = true;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // Exit
             // 
@@ -135,7 +136,7 @@
             this.loginAs.Size = new System.Drawing.Size(145, 21);
             this.loginAs.TabIndex = 9;
             // 
-            // Form1
+            // LoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,7 +152,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Username);
-            this.Name = "Form1";
+            this.Name = "LoginWindow";
             this.Text = "Login Window ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

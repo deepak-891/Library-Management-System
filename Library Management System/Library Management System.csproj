@@ -58,6 +58,12 @@
     <Compile Include="checkFine.Designer.cs">
       <DependentUpon>checkFine.cs</DependentUpon>
     </Compile>
+    <Compile Include="addLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addLibrarian.Designer.cs">
+      <DependentUpon>addLibrarian.cs</DependentUpon>
+    </Compile>
     <Compile Include="returnBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="checkFine.resx">
       <DependentUpon>checkFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addLibrarian.resx">
+      <DependentUpon>addLibrarian.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="returnBook.resx">
       <DependentUpon>returnBook.cs</DependentUpon>

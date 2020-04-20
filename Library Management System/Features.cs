@@ -46,5 +46,10 @@ namespace Library_Management_System
             addStudent add = new addStudent();
             add.Show();
         }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }
