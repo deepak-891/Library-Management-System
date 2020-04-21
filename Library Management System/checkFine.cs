@@ -22,7 +22,8 @@ namespace Library_Management_System
 
         public checkFine(string studentId1)
         {
-            this.studentId1 = studentId1;
+            InitializeComponent();
+            this.studentId.Text = studentId1;
         }
 
         private void submit_Click(object sender, EventArgs e)
