@@ -103,6 +103,7 @@
             this.Exit.TabIndex = 25;
             this.Exit.Text = "Back";
             this.Exit.UseVisualStyleBackColor = false;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // submit
             // 
@@ -114,6 +115,7 @@
             this.submit.TabIndex = 24;
             this.submit.Text = "Check";
             this.submit.UseVisualStyleBackColor = false;
+            this.submit.Click += new System.EventHandler(this.submit_Click);
             // 
             // checkFine
             // 
