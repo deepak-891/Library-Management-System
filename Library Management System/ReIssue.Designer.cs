@@ -50,6 +50,7 @@
             this.Clear.TabIndex = 29;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = false;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Exit
             // 
@@ -62,6 +63,7 @@
             this.Exit.TabIndex = 28;
             this.Exit.Text = "Exit";
             this.Exit.UseVisualStyleBackColor = false;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // submit
             // 
@@ -73,6 +75,7 @@
             this.submit.TabIndex = 27;
             this.submit.Text = "Re-Issue Book";
             this.submit.UseVisualStyleBackColor = false;
+            this.submit.Click += new System.EventHandler(this.submit_Click);
             // 
             // bookDetails
             // 
