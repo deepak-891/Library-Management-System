@@ -61,7 +61,7 @@ namespace Library_Management_System
                     reader= commandDatabase.ExecuteReader();
                     reader.Read();
                     int fine = Convert.ToInt32(reader.GetValue(1).ToString());
-                    studentDetails.Text = "Student Name: " + reader.GetValue(0).ToString()+" Fine: "+fine;
+                    studentDetails.Text = "Student Name: " + reader.GetValue(0).ToString();
                     reader.Close();
                     commandDatabase = new MySqlCommand(query4, databaseConnection)
                     {
