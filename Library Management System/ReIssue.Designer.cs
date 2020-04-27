@@ -167,7 +167,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ReIssue";
-            this.Text = "Library management System";
+            this.Text = "ReIssue Book";
             this.ResumeLayout(false);
             this.PerformLayout();
 

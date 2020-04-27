@@ -34,7 +34,7 @@ namespace Library_Management_System
             MySqlDataReader reader1, reader2;
 
             query = "SELECT ISSUED.B_id, Book.B_NAME, Book.B_AUTH, DATEDIFF(CURRENT_TIMESTAMP, ISSUED.DUE_DATE) * 6 AS Fine FROM ISSUED, Book where Book.B_id = ISSUED.B_ID" +
-                " and DATEDIFF(CURRENT_TIMESTAMP, ISSUED.DUE_DATE) >= and ISSUED.S_ID = '" + studentId.Text + "'";
+                " and DATEDIFF(CURRENT_TIMESTAMP, ISSUED.DUE_DATE) >=1 and ISSUED.S_ID = '" + studentId.Text + "'";
 
 
             try{ 
@@ -66,6 +66,11 @@ namespace Library_Management_System
         private void Exit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void checkFine_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

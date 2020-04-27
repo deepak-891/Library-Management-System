@@ -119,7 +119,7 @@
             this.Controls.Add(this.issue);
             this.Controls.Add(this.label1);
             this.Name = "StudentFeatures";
-            this.Text = "Student";
+            this.Text = "Student Features";
             this.ResumeLayout(false);
             this.PerformLayout();
 

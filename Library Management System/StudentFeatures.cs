@@ -25,12 +25,9 @@ namespace Library_Management_System
             this.studentId = user;
         
         }
-
         private void label1_Click(object sender, EventArgs e)
         {
-
-      }
-
+        }
         private void issue_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             issuedBook issued = new issuedBook(studentId);

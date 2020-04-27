@@ -165,7 +165,7 @@
             this.Controls.Add(this.idLabel);
             this.Controls.Add(this.label1);
             this.Name = "addBook";
-            this.Text = "addBook";
+            this.Text = "Add Book";
             this.ResumeLayout(false);
             this.PerformLayout();
 

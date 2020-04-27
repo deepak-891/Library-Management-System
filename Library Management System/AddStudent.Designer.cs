@@ -237,7 +237,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "addStudent";
-            this.Text = "Library Management System";
+            this.Text = "Add Student";
             this.ResumeLayout(false);
             this.PerformLayout();
 

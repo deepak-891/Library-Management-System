@@ -167,7 +167,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "IssueBook";
-            this.Text = "Form1";
+            this.Text = "Issue Book";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -234,7 +234,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "addLibrarian";
-            this.Text = "Form1";
+            this.Text = "Add Librarian";
             this.ResumeLayout(false);
             this.PerformLayout();
 
